@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Sonar copy copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Sonar copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Sonar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1F499E9C1C6268340021CF04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F499EC21C6268990021CF04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F7E8F151C569F2500038DDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FE9595B1C4D44D200891BD1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1FEA9C511C0CB4B100DC4FBA</key>
 		<dict>
 			<key>primary</key>
