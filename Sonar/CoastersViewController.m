@@ -54,6 +54,9 @@
     filtrofav = [[[resultado objectAtIndex:0] objectAtIndex:[self.gestorBD.arrNombresCols indexOfObject:@"favorito"]] integerValue];
 
     NSString *consulta = [NSString stringWithFormat:@"SELECT * FROM coaster WHERE nombre LIKE '%%%@%%' AND tipo LIKE'%%%@%%' AND favorita='%d'", filtroNombre, filtroTipo, filtrofav];
+    if (filtrofav == 0) {
+    	consulta = [NSString stringWithFormat:@"SELECT * FROM coaster WHERE nombre LIKE '%%%@%%' AND tipo LIKE'%%%@%%'", filtroNombre, filtroTipo];
+    }
 
     if (self.arrayDatos != nil) self.arrayDatos = nil;
     self.arrayDatos = [[NSArray alloc] initWithArray:[self.gestorBD selectFromDB:consulta]];
