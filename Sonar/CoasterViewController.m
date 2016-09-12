@@ -51,8 +51,10 @@
     [self cargarDatos];
 
     if(self.favorito == 0){
+      self.favorito = 1;
       [self.favButton setBackgroundImage:[UIImage imageNamed:@"nofav.png"] forState:UIControlStateNormal];
     }else{
+      self.favorito = 0;
       [self.favButton setBackgroundImage:[UIImage imageNamed:@"fav.png"] forState:UIControlStateNormal];
     }
     #ifdef VERSION2
